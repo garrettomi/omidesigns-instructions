@@ -1,5 +1,7 @@
+import { Link } from "react-router-dom";
+
 export default function ListItem ({url, text}) {
     return (
-        <a href={url}>{text}</a>
+        <Link to={url}>{text}</Link>
     );
 };
