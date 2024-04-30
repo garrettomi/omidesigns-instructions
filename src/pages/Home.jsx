@@ -10,9 +10,11 @@ function Home() {
   return (
     <>
         <BlockImage src={homeImage} alt="A polaroid camera on a wedding table" />
-        <Title text="ムービーの作り方" />
-        <BorderTextBlock text="「Omi Designs」をお選び頂きましてありがとうございます。素敵なウェディングになることを願っております✧*" />
-        <LinkList />
+        <section className="homepage-gutters">
+          <Title text="ムービーの作り方" />
+          <BorderTextBlock text="「Omi Designs」をお選び頂きましてありがとうございます。素敵なウェディングになることを願っております✧*" />
+          <LinkList />
+        </section>
     </>
   );
 };

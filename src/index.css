@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+section.homepage-gutters {
+    @apply px-4 sm:px-8 md:px-16 lg:px-24;
+}
+
+section.page-gutters {
+    @apply px-6 sm:px-12 md:px-20 lg:px-32 xl:px-80;
+}
+
+section.page-format p {
+    @apply py-1 text-base sm:text-sm md:text-base;
+}

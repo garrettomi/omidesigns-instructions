@@ -1,9 +1,7 @@
-import { Link } from "react-router-dom";
-
-export default function ListItem ({url, text}) {
+export default function ListItem ({text}) {
     return (
-        <li className="list-disc">
-            <Link to={url}>{text}</Link>
+        <li className="py-1 text-sm sm:text-base md:text-md list-disc break-words">
+            {text}
         </li>
     );
 };
