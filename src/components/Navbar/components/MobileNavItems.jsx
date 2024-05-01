@@ -10,8 +10,9 @@ export default function MobileNavItems({ isOpen }) {
         <div className="lg:hidden bg-white">
             <MobileNavItem url="/" label="Home" />
             <MobileNavItem url="/about" label="About" />
+            <MobileNavItem url="/shop" label="Shop" />
             <MobileNavItem url="/contact" label="Contact" />
-            <div className="p-5 text-center">
+            <div className="p-5">
             <a href="https://instagram.com/omidesigns" target="_blank" rel="noopener noreferrer" className="text-gray-800 hover:text-gray-600 transition">
                 <FontAwesomeIcon icon={faInstagram} />
             </a>

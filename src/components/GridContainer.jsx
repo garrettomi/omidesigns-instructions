@@ -6,7 +6,6 @@ export default function GridContainer ({ cards }) {
           <a
             key={index}
             href={card.url}
-            target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center h-32 bg-gray-200 rounded-lg shadow-md"
           >

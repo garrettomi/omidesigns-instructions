@@ -6,6 +6,10 @@ export default {
       colors: {
         "custom-bg": "#fffcf8",
       },
+      fontFamily: {
+        montserrat: ["Montserrat", "sans-serif"],
+        murecho: ["Murecho", "sans-serif"],
+      },
     },
   },
   plugins: [],
