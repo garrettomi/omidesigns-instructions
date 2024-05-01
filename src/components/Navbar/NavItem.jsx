@@ -1,11 +1,9 @@
-import { NavLink } from "react-router-dom";
-
 export default function NavItem ({ text, url }) {
     return (
-        <div>
-            <NavLink to={url}>
+        <li>
+            <a href={url} className="text-gray-800 hover:text-gray-600 transition">
                 {text}
-            </NavLink>
-        </div>
+            </a>
+        </li>
     );
 };

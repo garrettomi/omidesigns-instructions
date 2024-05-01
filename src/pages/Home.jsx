@@ -5,6 +5,8 @@ import BorderTextBlock from "../components/BorderTextBlock"
 import GridContainer from "../components/GridContainer"
 import LinkList from "../components/LinkList"
 
+import Navbar from "../components/Navbar/Navbar"
+
 
 function Home() {
 

@@ -5,6 +5,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
+
 import Home from './pages/Home.jsx';
 import Hajimeni from './pages/Hajimeni.jsx';
 import PC from './pages/PC.jsx';
@@ -16,6 +17,8 @@ import Ongaku from './pages/Ongaku.jsx';
 import Download from './pages/Download.jsx'
 import Content from './pages/Content.jsx';
 import FAQ from './pages/FAQ.jsx';
+
+import Navbar from './components/Navbar/Navbar.jsx';
 
 import './index.css'
 
@@ -74,6 +77,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <Navbar />
     <RouterProvider router={router} />
     {/* <App /> */}
   </React.StrictMode>,
