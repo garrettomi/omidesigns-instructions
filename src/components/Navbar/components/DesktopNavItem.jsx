@@ -1,7 +1,7 @@
 export default function DesktopNavItem ({ text, url }) {
     return (
         <li>
-            <a href={url} className="font-montserrat text-gray-800 hover:text-gray-600 transition">
+            <a href={url} className="font-montserrat text-omidesigns-brown hover:text-gray-600 transition">
                 {text}
             </a>
         </li>

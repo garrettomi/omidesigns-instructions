@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         "custom-bg": "#fffcf8",
+        "omidesigns-brown": "#8B806C",
       },
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
