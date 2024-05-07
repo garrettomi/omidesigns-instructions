@@ -6,6 +6,7 @@ export default {
       colors: {
         "custom-bg": "#fffcf8",
         "omidesigns-brown": "#8B806C",
+        "omidesigns-white": "#F8F5F0",
       },
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],

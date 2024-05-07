@@ -21,7 +21,7 @@ function Home() {
     <>
         <BlockImage src={homeImage} alt="A polaroid camera on a wedding table" />
           {/* <Title text="ムービーの作り方" /> */}
-          <BorderTextBlock text="「Omi Designs」をお選び頂きましてありがとうございます。素敵なウェディングになることを願っております✧*" />
+          <BorderTextBlock firstSentence="ムービーテンプレートをご購入いただきありがとうございました" secondSentence="お困りの点はお気軽にお問い合わせください" />
         <section className="homepage-gutters">
           <GridContainer cards={cards} />
           <LinkList />

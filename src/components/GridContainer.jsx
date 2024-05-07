@@ -7,7 +7,7 @@ export default function GridContainer ({ cards }) {
             key={index}
             href={card.url}
             rel="noopener noreferrer"
-            className="flex items-center justify-center h-32 bg-gray-200 rounded-lg shadow-md"
+            className="flex items-center justify-center h-32 bg-omidesigns-white rounded-lg shadow-md"
           >
             <p className="text-center text-lg font-semibold">{card.title}</p>
           </a>
