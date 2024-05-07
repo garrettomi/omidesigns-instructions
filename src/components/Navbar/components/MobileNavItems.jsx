@@ -7,7 +7,7 @@ export default function MobileNavItems({ isOpen }) {
     if(!isOpen) return null;
 
     return (
-        <div className="lg:hidden bg-white">
+        <div className="lg:hidden bg-[#EBE3DB]">
             <MobileNavItem url="/" label="Home" />
             <MobileNavItem url="/about" label="About" />
             <MobileNavItem url="/shop" label="Shop" />
