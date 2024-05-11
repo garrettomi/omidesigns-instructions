@@ -12,9 +12,9 @@ import ContentImage from '../components/common/ContentImage';
 export default function Hajimeni() {
     return (
         <section className="page-format page-gutters">
-            <ReferenceBlock />
             <Title text="はじめに | Canva登録・テンプレートの受け取り方" />
             <SubTitle text="はじめに" />
+            <ReferenceBlock />
             <SmallTitle text="Canvaについて" />
             <p>
                 テンプレートのご使用にはCanva Proアカウントが必要です
