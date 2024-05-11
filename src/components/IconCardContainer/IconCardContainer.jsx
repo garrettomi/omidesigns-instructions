@@ -1,5 +1,3 @@
-import { SlideShowIcon } from "../../utils/SVGIcon";
-
 export default function IconCardContainer ({ iconCards }) {
   console.log(iconCards)
     return (
@@ -10,8 +8,11 @@ export default function IconCardContainer ({ iconCards }) {
             key={index}
             href={card.url}
             rel="noopener noreferrer"
-            className="flex items-center justify-center h-72 bg-omidesigns-white rounded-lg shadow-md"
+            className="flex flex-col items-center justify-center h-72 bg-omidesigns-white rounded-lg shadow-md"
           >
+            <div>
+              {card.icon}
+            </div>
             <p className="text-center text-lg font-semibold">{card.title}</p>
           </a>
         ))}

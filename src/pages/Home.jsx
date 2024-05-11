@@ -6,15 +6,16 @@ import GridContainer from "../components/GridContainer"
 // import LinkList from "../components/LinkList"
 
 import Navbar from "../components/Navbar/Navbar"
+import { DesktopIcon, MobileIcon, MusicIcon, SlideShowIcon } from "../utils/SVGIcon"
 
 
 function Home() {
 
   const iconCards = [
-    { title: "はじめに | Canva登録・テンプレートの受け取り方", url: "/はじめに", library: "fa-brand", skin: "fa-slideshare" },
-    // { title: "【PC】基本操作", url: "/PC" },
-    // { title: "【iPhone】基本操作", url: "/iPhone" },
-    // { title: "音楽について", url: "/音楽について" }
+    { title: "はじめに | Canva登録・テンプレートの受け取り方", url: "/はじめに", icon: <SlideShowIcon />},
+    { title: "【PC】基本操作", url: "/PC", icon: <DesktopIcon /> },
+    { title: "【iPhone】基本操作", url: "/iPhone", icon: <MobileIcon /> },
+    { title: "音楽について", url: "/音楽について", icon: <MusicIcon /> }
   ]
 
   const cards = [
