@@ -28,7 +28,9 @@ function Home() {
         <BlockImage src={homeImage} alt="A polaroid camera on a wedding table" />
           <BorderTextBlock firstSentence="ムービーテンプレートをご購入いただきありがとうございました" secondSentence="お困りの点はお気軽にお問い合わせください" />
         <section className="homepage-gutters">
+          <h3 className="text-center text-xl font-bold mt-10 mb-10">基本操作についてはこちらから</h3>
           <IconCardContainer iconCards={iconCards} />
+          <h3 className="text-center text-xl font-bold mt-10 mb-10">お役立ち情報</h3>
           <GridContainer cards={cards} />
         </section>
     </>
