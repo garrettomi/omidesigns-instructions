@@ -1,4 +1,4 @@
-import omidesignsLogo from "../../../assets/logo.png";
+import omidesignsLogo from "../../../../assets/logo.png";
 
 export default function Logo () {
     return (

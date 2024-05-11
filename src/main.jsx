@@ -16,9 +16,8 @@ import Setsumei from './pages/Setsumei.jsx';
 import Ongaku from './pages/Ongaku.jsx';
 import Download from './pages/Download.jsx'
 import Content from './pages/Content.jsx';
-import FAQ from './pages/FAQ.jsx';
 
-import Navbar from './components/Navbar/Navbar.jsx';
+import Navbar from './components/layout/Navbar/Navbar.jsx';
 
 import './index.css'
 
@@ -66,11 +65,6 @@ const router = createBrowserRouter([
   {
     path:"/コメント集",
     element: <Content />,
-    errorElement: <Error />,
-  },
-  {
-    path:"/よくある質問",
-    element: <FAQ />,
     errorElement: <Error />,
   },
 ]);

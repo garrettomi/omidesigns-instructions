@@ -1,11 +1,9 @@
 import homeImage from "../assets/camera.jpg"
-import BlockImage from "../components/BlockImage"
-import BorderTextBlock from "../components/BorderTextBlock"
-import IconCardContainer from "../components/IconCardContainer/IconCardContainer"
-import GridContainer from "../components/GridContainer"
-// import LinkList from "../components/LinkList"
+import BlockImage from "../components/layout/BlockImage"
+import BorderTextBlock from "../components/layout/BorderTextBlock"
+import IconCardContainer from "../components/layout/IconCardContainer"
+import GridContainer from "../components/layout/GridContainer"
 
-import Navbar from "../components/Navbar/Navbar"
 import { DesktopIcon, MobileIcon, MusicIcon, SlideShowIcon } from "../utils/SVGIcon"
 
 
@@ -28,12 +26,10 @@ function Home() {
   return (
     <>
         <BlockImage src={homeImage} alt="A polaroid camera on a wedding table" />
-          {/* <Title text="ムービーの作り方" /> */}
           <BorderTextBlock firstSentence="ムービーテンプレートをご購入いただきありがとうございました" secondSentence="お困りの点はお気軽にお問い合わせください" />
         <section className="homepage-gutters">
           <IconCardContainer iconCards={iconCards} />
           <GridContainer cards={cards} />
-          {/* <LinkList /> */}
         </section>
     </>
   );

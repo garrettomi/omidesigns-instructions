@@ -1,4 +1,4 @@
-import HeaderTitle from "./HeaderTitle";
+import HeaderTitle from "../common/HeaderTitle";
 
 export default function BlockImage({src, alt}) {
     const style = {

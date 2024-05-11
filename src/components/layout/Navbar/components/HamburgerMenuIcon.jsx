@@ -1,6 +1,6 @@
 import Logo from "./Logo";
 
-import { HamburgerIcon, CloseMenuIcon } from "../../../utils/SVGIcon";
+import { HamburgerIcon, CloseMenuIcon } from "../../../../utils/SVGIcon";
 
 export default function HamburgerMenuIcon({ isOpen, toggle }) {
     return (

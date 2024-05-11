@@ -1,6 +1,6 @@
 import MobileNavItem from "./MobileNavItem";
 
-import { InstagramIcon } from '../../../utils/SVGIcon';
+import { InstagramIcon } from '../../../../utils/SVGIcon';
 
 export default function MobileNavItems({ isOpen }) {
     if(!isOpen) return null;

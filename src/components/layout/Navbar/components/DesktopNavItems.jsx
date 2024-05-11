@@ -1,7 +1,7 @@
 import Logo from "./Logo"
 import DesktopNavItem from "./DesktopNavItem";
 
-import { InstagramIcon } from "../../../utils/SVGIcon";
+import { InstagramIcon } from "../../../../utils/SVGIcon";
 
 export default function DesktopNavItems() {
     return (

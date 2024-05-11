@@ -2,15 +2,17 @@ import { Link } from "react-router-dom";
 import stepOne from "../assets/step-1.png";
 import stepTwo from "../assets/step-2.png";
 
-import Title from "../components/Title";
-import SubTitle from "../components/SubTitle";
-import SmallTitle from "../components/SmallTitle";
-import List from "../components/List";
-import ContentImage from '../components/ContentImage';
+import ReferenceBlock from "../components/layout/ReferenceBlock/ReferenceBlock";
+import Title from "../components/common/Title";
+import SubTitle from "../components/common/SubTitle";
+import SmallTitle from "../components/common/SmallTitle";
+import List from "../components/common/List";
+import ContentImage from '../components/common/ContentImage';
 
 export default function Hajimeni() {
     return (
         <section className="page-format page-gutters">
+            <ReferenceBlock />
             <Title text="はじめに | Canva登録・テンプレートの受け取り方" />
             <SubTitle text="はじめに" />
             <SmallTitle text="Canvaについて" />
