@@ -11,8 +11,7 @@ export default function DesktopNavItems() {
                 <DesktopNavItem text="Home" url="/" />
                 <DesktopNavItem text="About" url="/about" />
                 <DesktopNavItem text="Shop" url="/shop" />
-                <DesktopNavItem text="Contact" url="/contact" />               
-                <DesktopNavItem text="FAQ" url="/frequently-asked-questions" />               
+                <DesktopNavItem text="Contact" url="/contact" />                             
                 <li>
                     <a href="https://instagram.com/omidesigns" target="_blank" rel="noopener noreferrer" className="text-omidesigns-brown hover:text-gray-600 transition">
                         <InstagramIcon color="#8B806C" />
