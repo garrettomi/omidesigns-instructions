@@ -1,7 +1,6 @@
 import MobileNavItem from "./MobileNavItem";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { InstagramIcon } from '../../../utils/SVGIcon';
 
 export default function MobileNavItems({ isOpen }) {
     if(!isOpen) return null;
@@ -15,7 +14,7 @@ export default function MobileNavItems({ isOpen }) {
             <MobileNavItem url="/frequently-asked-questions" label="FAQ" />
             <div className="p-5">
             <a href="https://instagram.com/omidesigns" target="_blank" rel="noopener noreferrer" className="text-gray-800 hover:text-gray-600 transition">
-                <FontAwesomeIcon icon={faInstagram} />
+                <InstagramIcon color="black" />
             </a>
             </div>
         </div>

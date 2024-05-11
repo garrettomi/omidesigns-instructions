@@ -1,8 +1,7 @@
 import Logo from "./Logo"
 import DesktopNavItem from "./DesktopNavItem";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { InstagramIcon } from "../../../utils/SVGIcon";
 
 export default function DesktopNavItems() {
     return (
@@ -16,7 +15,7 @@ export default function DesktopNavItems() {
                 <DesktopNavItem text="FAQ" url="/frequently-asked-questions" />               
                 <li>
                     <a href="https://instagram.com/omidesigns" target="_blank" rel="noopener noreferrer" className="text-omidesigns-brown hover:text-gray-600 transition">
-                    <FontAwesomeIcon icon={faInstagram} />
+                        <InstagramIcon color="#8B806C" />
                     </a>
                 </li>
             </ul>

@@ -1,14 +1,21 @@
 import homeImage from "../assets/camera.jpg"
 import BlockImage from "../components/BlockImage"
-import Title from "../components/Title"
 import BorderTextBlock from "../components/BorderTextBlock"
+import IconCardContainer from "../components/IconCardContainer/IconCardContainer"
 import GridContainer from "../components/GridContainer"
-import LinkList from "../components/LinkList"
+// import LinkList from "../components/LinkList"
 
 import Navbar from "../components/Navbar/Navbar"
 
 
 function Home() {
+
+  const iconCards = [
+    { title: "はじめに | Canva登録・テンプレートの受け取り方", url: "/はじめに", library: "fa-brand", skin: "fa-slideshare" },
+    // { title: "【PC】基本操作", url: "/PC" },
+    // { title: "【iPhone】基本操作", url: "/iPhone" },
+    // { title: "音楽について", url: "/音楽について" }
+  ]
 
   const cards = [
     { title: "はじめに | Canva登録・テンプレートの受け取り方", url: "/はじめに" },
@@ -23,8 +30,9 @@ function Home() {
           {/* <Title text="ムービーの作り方" /> */}
           <BorderTextBlock firstSentence="ムービーテンプレートをご購入いただきありがとうございました" secondSentence="お困りの点はお気軽にお問い合わせください" />
         <section className="homepage-gutters">
+          <IconCardContainer iconCards={iconCards} />
           <GridContainer cards={cards} />
-          <LinkList />
+          {/* <LinkList /> */}
         </section>
     </>
   );
