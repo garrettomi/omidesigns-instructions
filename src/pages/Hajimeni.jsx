@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import stepOne from "../assets/step-1.png";
 import stepTwo from "../assets/step-2.png";
+import ReferenceAccordion from "../components/layout/Accordion";
 
-import ReferenceBlock from "../components/layout/ReferenceBlock/ReferenceBlock";
 import Title from "../components/common/Title";
 import SubTitle from "../components/common/SubTitle";
 import SmallTitle from "../components/common/SmallTitle";
@@ -14,7 +14,6 @@ export default function Hajimeni() {
         <section className="page-format page-gutters">
             <Title text="はじめに | Canva登録・テンプレートの受け取り方" />
             <SubTitle text="はじめに" />
-            <ReferenceBlock />
             <SmallTitle text="Canvaについて" />
             <p>
                 テンプレートのご使用にはCanva Proアカウントが必要です
@@ -41,6 +40,9 @@ export default function Hajimeni() {
                 作成したアカウント情報でCanvaにサインイン、商品のテンプレートリンクを取得してください
             </p>
             <ContentImage src={stepTwo} alt="Step 2 for Canva Pro" />
+            <div className="py-20">
+                <ReferenceAccordion />
+            </div>
         </section>
     );
 };

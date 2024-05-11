@@ -18,6 +18,7 @@ import Download from './pages/Download.jsx'
 import Content from './pages/Content.jsx';
 
 import Navbar from './components/layout/Navbar/Navbar.jsx';
+import Footer from './components/layout/Footer.jsx';
 
 import './index.css'
 
@@ -74,5 +75,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Navbar />
     <RouterProvider router={router} />
     {/* <App /> */}
+    <Footer />
   </React.StrictMode>,
 )
