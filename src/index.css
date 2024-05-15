@@ -5,6 +5,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-behavior: smooth;
+}
+
 section.homepage-gutters {
     @apply px-4 sm:px-8 md:px-16 lg:px-24;
 }

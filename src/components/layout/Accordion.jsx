@@ -8,7 +8,7 @@ const AccordionDemo = () => (
     className="bg-mauve6 w-full rounded-md shadow-[0_2px_10px] shadow-black/5"
     type="multiple"
     defaultValue={["item-1", "item-2"]}
-    collapsible
+    collapsible="true"
   >
     <div className="text-violet11 bg-white px-5 py-3 rounded-t-md">
       Go to

@@ -15,6 +15,17 @@ export default function Hajimeni() {
     return (
         <section className="page-format page-gutters">
             <Title text="はじめに | Canva登録・テンプレートの受け取り方" />
+            {/* <ul>
+                <li>
+                    <Link to="#はじめに">はじめに</Link>
+                </li>
+                <li>
+                    <Link to="#Canvaについて">Canvaについて</Link>
+                </li>
+                <li>
+                    <Link to="#テンプレートへのアクセス">テンプレートへのアクセス</Link>
+                </li>
+            </ul> */}
             <SubTitle text="はじめに" />
             <SmallTitle text="Canvaについて" />
             <p>
