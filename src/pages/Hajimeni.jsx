@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import stepOne from "../assets/step-1.png";
 import stepTwo from "../assets/step-2.png";
+
 import ReferenceAccordion from "../components/layout/Accordion";
 
 import Title from "../components/common/Title";
@@ -8,6 +9,7 @@ import SubTitle from "../components/common/SubTitle";
 import SmallTitle from "../components/common/SmallTitle";
 import List from "../components/common/List";
 import ContentImage from '../components/common/ContentImage';
+import ScrollToTop from "../components/common/ScrollToTop";
 
 export default function Hajimeni() {
     return (
@@ -43,6 +45,7 @@ export default function Hajimeni() {
             <div className="py-20">
                 <ReferenceAccordion />
             </div>
+            <ScrollToTop />
         </section>
     );
 };
