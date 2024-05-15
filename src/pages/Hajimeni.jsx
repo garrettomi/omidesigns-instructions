@@ -26,8 +26,8 @@ export default function Hajimeni() {
                     <Link to="#テンプレートへのアクセス">テンプレートへのアクセス</Link>
                 </li>
             </ul> */}
-            <SubTitle text="はじめに" />
-            <SmallTitle text="Canvaについて" />
+            <SubTitle id="#はじめに" text="はじめに" />
+            <SmallTitle id="#Canvaについて" text="Canvaについて" />
             <p>
                 テンプレートのご使用にはCanva Proアカウントが必要です
             </p>
@@ -35,7 +35,7 @@ export default function Hajimeni() {
                 （Canva proは無料トライアルで30日間は無料でご利用いただけます）
             </p>
             <List />
-            <SmallTitle text="テンプレートへのアクセス" />
+            <SmallTitle id="#テンプレートへのアクセス" text="テンプレートへのアクセス" />
             <p>
                 Step 1 : Proアカウントの作成
             </p>
