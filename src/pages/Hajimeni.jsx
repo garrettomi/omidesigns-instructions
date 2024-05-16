@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
+
 import stepOne from "../assets/step-1.png";
 import stepTwo from "../assets/step-2.png";
 
@@ -15,19 +17,19 @@ export default function Hajimeni() {
     return (
         <section className="page-format page-gutters">
             <Title text="はじめに | Canva登録・テンプレートの受け取り方" />
-            {/* <ul>
+            <ul>
                 <li>
-                    <Link to="#はじめに">はじめに</Link>
+                    <HashLink to="#はじめに">はじめに</HashLink>
                 </li>
                 <li>
-                    <Link to="#Canvaについて">Canvaについて</Link>
+                    <HashLink to="#Canvaについて">Canvaについて</HashLink>
                 </li>
                 <li>
-                    <Link to="#テンプレートへのアクセス">テンプレートへのアクセス</Link>
+                    <HashLink to="#テンプレートへのアクセス">テンプレートへのアクセス</HashLink>
                 </li>
-            </ul> */}
-            <SubTitle id="#はじめに" text="はじめに" />
-            <SmallTitle id="#Canvaについて" text="Canvaについて" />
+            </ul>
+            <SubTitle idName="はじめに" text="はじめに" />
+            <SmallTitle idName="Canvaについて" text="Canvaについて" />
             <p>
                 テンプレートのご使用にはCanva Proアカウントが必要です
             </p>
@@ -35,7 +37,7 @@ export default function Hajimeni() {
                 （Canva proは無料トライアルで30日間は無料でご利用いただけます）
             </p>
             <List />
-            <SmallTitle id="#テンプレートへのアクセス" text="テンプレートへのアクセス" />
+            <SmallTitle idName="テンプレートへのアクセス" text="テンプレートへのアクセス" />
             <p>
                 Step 1 : Proアカウントの作成
             </p>
