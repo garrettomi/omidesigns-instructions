@@ -8,16 +8,25 @@ import ReferenceAccordion from "../components/layout/Accordion";
 
 import Title from "../components/common/Title";
 import SubTitle from "../components/common/SubTitle";
+import HashLinkList from "../components/common/HashLinkList";
 import SmallTitle from "../components/common/SmallTitle";
 import List from "../components/common/List";
 import ContentImage from '../components/common/ContentImage';
 import ScrollToTop from "../components/common/ScrollToTop";
 
 export default function Hajimeni() {
+    const items = [
+        "はじめに",
+        "Canvaについて",
+        "テンプレートへのアクセス",
+    ];
+
     return (
         <section className="page-format page-gutters">
             <Title text="はじめに | Canva登録・テンプレートの受け取り方" />
-            <ul>
+            <SubTitle idName="はじめに" text="はじめに" />
+            <HashLinkList items={items} />
+            {/* <ul>
                 <li>
                     <HashLink to="#はじめに">はじめに</HashLink>
                 </li>
@@ -27,8 +36,7 @@ export default function Hajimeni() {
                 <li>
                     <HashLink to="#テンプレートへのアクセス">テンプレートへのアクセス</HashLink>
                 </li>
-            </ul>
-            <SubTitle idName="はじめに" text="はじめに" />
+            </ul> */}
             <SmallTitle idName="Canvaについて" text="Canvaについて" />
             <p>
                 テンプレートのご使用にはCanva Proアカウントが必要です
