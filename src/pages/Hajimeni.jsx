@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { HashLink } from "react-router-hash-link";
 
 import stepOne from "../assets/step-1.png";
 import stepTwo from "../assets/step-2.png";
@@ -26,17 +25,6 @@ export default function Hajimeni() {
             <Title text="はじめに | Canva登録・テンプレートの受け取り方" />
             <SubTitle idName="はじめに" text="はじめに" />
             <HashLinkList items={items} />
-            {/* <ul>
-                <li>
-                    <HashLink to="#はじめに">はじめに</HashLink>
-                </li>
-                <li>
-                    <HashLink to="#Canvaについて">Canvaについて</HashLink>
-                </li>
-                <li>
-                    <HashLink to="#テンプレートへのアクセス">テンプレートへのアクセス</HashLink>
-                </li>
-            </ul> */}
             <SmallTitle idName="Canvaについて" text="Canvaについて" />
             <p>
                 テンプレートのご使用にはCanva Proアカウントが必要です

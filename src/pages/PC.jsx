@@ -38,59 +38,6 @@ export default function PC() {
             <Title text="【PC】基本操作" />
             <SubTitle text="【PC】基本操作" />
             <HashLinkList items={items} />
-            {/* <ul>
-                <li>
-                    <HashLink to="#画面の見方">画面の見方</HashLink>
-                </li>
-                <li>
-                    <HashLink to="#共有マーク">1.共有マーク</HashLink>
-                </li>
-                <li>
-                    <HashLink to="#素材">2.素材</HashLink>
-                </li>
-                <li>
-                    <HashLink to="#テンプレートへのアクセス">3.テキスト</HashLink>
-                </li>
-                <li>
-                    <HashLink to="#テンプレートへのアクセス">4.アップロード</HashLink>
-                </li>
-                <li>
-                    <HashLink to="#テンプレートへのアクセス">基本の操作</HashLink>
-                </li>
-                <li>
-                    <HashLink to="#テンプレートへのアクセス">1.写真の置き換え</HashLink>
-                </li>
-                <li>
-                    <HashLink to="#テンプレートへのアクセス">2.前面・背面へ移動</HashLink>
-                </li>
-                <li>
-                    <HashLink to="#テンプレートへのアクセス">3.音楽について</HashLink>
-                </li>
-                <li>
-                    <HashLink to="#テンプレートへのアクセス">・音楽の確認方法</HashLink>
-                </li>
-                <li>
-                    <HashLink to="#テンプレートへのアクセス">・音楽の削除の仕方</HashLink>
-                </li>
-                <li>
-                    <HashLink to="#テンプレートへのアクセス">・音楽の置き換え</HashLink>
-                </li>
-                <li>
-                    <HashLink to="#テンプレートへのアクセス">・音楽のエフェクト（フェードイン、フェードアウト）</HashLink>
-                </li>
-                <li>
-                    <HashLink to="#テンプレートへのアクセス">4.ページの複製・追加</HashLink>
-                </li>
-                <li>
-                    <HashLink to="#テンプレートへのアクセス">5.アニメーション</HashLink>
-                </li>
-                <li>
-                    <HashLink to="#テンプレートへのアクセス">6.透明度</HashLink>
-                </li>
-                <li>
-                    <HashLink to="#テンプレートへのアクセス">7.ロック</HashLink>
-                </li>
-            </ul> */}
             <SubTitle idName="画面の見方" text="画面の見方" />
                 <p>
                 テンプレートを開くとまずこちらの画面が表示されます
