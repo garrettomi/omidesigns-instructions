@@ -18,7 +18,7 @@ function Home() {
 
   const cards = [
     { title: "ダウンロード・DVD化", url: "/ダウンロード" },
-    { title: "【PC】基本操作", url: "/PC" },
+    { title: "セーフティーゾーンについて", url: "/セーフティーゾーンについて" },
     { title: "【iPhone】基本操作", url: "/iPhone" },
     { title: "音楽について", url: "/音楽について" }
   ];
