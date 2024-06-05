@@ -19,7 +19,7 @@ function Home() {
   const cards = [
     { title: "ダウンロード・DVD化", url: "/ダウンロード" },
     { title: "セーフティーゾーンについて", url: "/セーフティーゾーンについて" },
-    { title: "【iPhone】基本操作", url: "/iPhone" },
+    { title: "説明動画", url: "/説明動画" },
     { title: "音楽について", url: "/音楽について" }
   ];
 
