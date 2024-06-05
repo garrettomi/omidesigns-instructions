@@ -15,7 +15,7 @@ import SafetyZone from './pages/SafetyZone.jsx';
 import Setsumei from './pages/Setsumei.jsx';
 import Ongaku from './pages/Ongaku.jsx';
 import Download from './pages/Download.jsx'
-import Content from './pages/Content.jsx';
+import Comment from './pages/Comment.jsx';
 
 import Navbar from './components/layout/Navbar/Navbar.jsx';
 import Footer from './components/layout/Footer.jsx';
@@ -65,7 +65,7 @@ const router = createBrowserRouter([
   },
   {
     path:"/コメント集",
-    element: <Content />,
+    element: <Comment />,
     errorElement: <Error />,
   },
 ]);
