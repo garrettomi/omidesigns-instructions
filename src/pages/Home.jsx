@@ -17,7 +17,7 @@ function Home() {
   ]
 
   const cards = [
-    { title: "はじめに | Canva登録・テンプレートの受け取り方", url: "/はじめに" },
+    { title: "ダウンロード・DVD化", url: "/ダウンロード" },
     { title: "【PC】基本操作", url: "/PC" },
     { title: "【iPhone】基本操作", url: "/iPhone" },
     { title: "音楽について", url: "/音楽について" }

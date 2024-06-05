@@ -1,8 +1,11 @@
 import { Link } from "react-router-dom";
 
+import Title from "../components/common/Title";
 import HashLinkList from "../components/common/HashLinkList";
 import SubTitle from "../components/common/SubTitle";
 import ContentImage from "../components/common/ContentImage";
+import ReferenceAccordion from "../components/layout/Accordion";
+import ScrollToTop from "../components/common/ScrollToTop";
 
 import firstImage from '../assets/download-1.png';
 import secondImage from '../assets/download-2.png';
@@ -127,7 +130,10 @@ export default function Download() {
                 <p>
                 できたDVDは問題がないかすぐ確認しましょう!
                 </p>
-
+            <div className="py-20">
+                <ReferenceAccordion />
+            </div>
+            <ScrollToTop />
         </section>
     );
 };
