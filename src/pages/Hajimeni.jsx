@@ -20,11 +20,11 @@ export default function Hajimeni() {
         },
         {
             text: "Canvaについて",
-            indent: "indent"
+            indent: "indent-5"
         },
         {
             text: "テンプレートへのアクセス",
-            indent: "indent"
+            indent: "indent-5"
         },
     ];
 

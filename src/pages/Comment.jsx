@@ -11,43 +11,43 @@ export default function Comment() {
         },
         {
             text: "オープニングムービー",
-            indent: "indent"
+            indent: "indent-5"
         },
         {
             text: "プロフィールムービー",
-            indent: "indent"
+            indent: "indent-5"
         },
         {
             text: "幼少期",
-            indent: "indent"
+            indent: "indent-10"
         },
         {
             text: "小学校時代",
-            indent: "indent"
+            indent: "indent-10"
         },
         {
             text: "中学時代",
-            indent: "indent"
+            indent: "indent-10"
         },
         {
             text: "高校時代",
-            indent: "indent"
+            indent: "indent-10"
         },
         {
             text: "大学時代",
-            indent: "indent"
+            indent: "indent-10"
         },
         {
             text: "社会人時代",
-            indent: "indent"
+            indent: "indent-10"
         },
         {
             text: "お付き合い開始",
-            indent: "indent",
+            indent: "indent-10",
         },
         {
             text: "ファミリー婚",
-            indent: "indent",
+            indent: "indent-10",
         },
     ];
 
@@ -115,7 +115,7 @@ export default function Comment() {
                 たくさん遊んでもらって、色々と連れて行ってもらいました
                 </p>
                 <p>
-                お目目くりくり♪この頃の自分本当に可愛い！(笑)
+                お目目くりくり♪この頃の自分本当に可愛い！&#40;笑&#41;
                 </p>
                 <p>
                 弟の○○が生まれてお姉ちゃんがになりました
@@ -146,7 +146,7 @@ export default function Comment() {
                 野球中心の生活がスタート
                 </p>
                 <p>
-                体を動かすのが大好きよく外で走っていました（笑）
+                体を動かすのが大好きよく外で走っていました&#40;笑&#41;
                 </p>
                 <p>
                 幼稚園～中学校までみんなが同級生
@@ -185,7 +185,7 @@ export default function Comment() {
                 </p>
             <SubTitle idName="大学時代" text="大学時代" />
                 <p>
-                念願の一人暮らし、高知県の洗礼を浴びました(笑)
+                念願の一人暮らし、高知県の洗礼を浴びました&#40;笑&#41;
                 </p>
                 <p>
                 真面目でしっかり者の友人たちに支えられて、実習や研究、国家試験、採用試験を乗り越えました！

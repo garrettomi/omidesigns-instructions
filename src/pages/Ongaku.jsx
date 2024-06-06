@@ -14,35 +14,35 @@ export default function Ongaku() {
         },
         {
             text: "テンプレートで使用している曲",
-            indent: "indent",
+            indent: "indent-5",
         },
         {
             text: "著作権について",
-            indent: "indent",
+            indent: "indent-5",
         },
         {
             text: "Canva上の曲について",
-            indent: "indent",
+            indent: "indent-5",
         },
         {
             text: "著作権フリー音楽",
-            indent: "indent",
+            indent: "indent-5",
         },
         {
             text: "おすすめサイト",
-            indent: "indent",
+            indent: "indent-10",
         },
         {
             text:  "音楽の追加方法",
-            indent: "indent",
+            indent: "indent-5",
         },
         {
             text:  "iPhone への保存方法",
-            indent: "indent",
+            indent: "indent-5",
         },
         {
             text:  "注意",
-            indent: "indent",
+            indent: "indent-5",
         },
     ];
 

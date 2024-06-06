@@ -35,66 +35,66 @@ export default function PC() {
         },
         {
             text: "1.共有マーク",
-            indent: "indent",
+            indent: "indent-5",
         },
         {
             text: "2.素材",
-            indent: "indent",
+            indent: "indent-5",
         },
         {
             text:  "3.テキスト",
-            indent: "indent",
+            indent: "indent-5",
         },
         {
             text:   "4.アップロード",
-            indent: "indent",
+            indent: "indent-5",
         },
         {
             text: "基本の操作",
         },
         {
             text: "1.写真の置き換え",
-            indent: "indent"
+            indent: "indent-5"
         },
         {
             text:  "2.前面・背面へ移動",
-            indent: "indent"
+            indent: "indent-5"
         },
         {
             text:  "3.音楽について",
-            indent: "indent"
+            indent: "indent-5"
         },
         {
             text:  "・音楽の確認方法",
-            indent: "indent"
+            indent: "indent-5"
         },
         {
             text:  "・音楽の削除の仕方",
-            indent: "indent"
+            indent: "indent-5"
         },
         {
             text:  "・音楽の置き換え",
-            indent: "indent"
+            indent: "indent-5"
         },
         {
             text:  "・音楽のエフェクト（フェードイン、フェードアウト）",
-            indent: "indent"
+            indent: "indent-5"
         },
         {
             text:  "4.ページの複製・追加",
-            indent: "indent"
+            indent: "indent-5"
         },
         {
             text:  "5.アニメーション",
-            indent: "indent"
+            indent: "indent-5"
         },
         {
             text:  "6.透明度",
-            indent: "indent"
+            indent: "indent-5"
         },
         {
             text:  "7.ロック",
-            indent: "indent"
+            indent: "indent-5"
         },
     ];
 

@@ -27,15 +27,15 @@ export default function Download() {
         },
         {
             text: "式場に確認すること",
-            indent: "indent"
+            indent: "indent-5"
         },
         {
             text: "おすすめのサイト",
-            indent: "indent"
+            indent: "indent-5"
         },
         {
             text: "注意",
-            indent: "indent"
+            indent: "indent-5"
         },
     ];
 
