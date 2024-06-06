@@ -31,29 +31,77 @@ import ScrollToTop from "../components/common/ScrollToTop";
 
 export default function SmartPhone() {
     const items = [
-        "画面の見方",
-        "1.共有マーク",
-        "2.素材",
-        "3.テキスト",
-        "4.カメラロール",
-        "基本の操作",
-        "1.写真の置き換え",
-        "2.前面・背面へ移動",
-        "3.音楽について",
-        "・音楽の確認方法",
-        "・音楽の削除の仕方",
-        "・音楽の置き換え",
-        "・音楽のエフェクト（フェードイン、フェードアウト）",
-        "4.ページの複製",
-        "5.アニメーション",
-        "6.透明度",
-        "7.ロック",
+        {
+            text: "画面の見方",
+        },
+        {
+            text: "1.共有マーク",
+            indent: "indent"
+        },
+        {
+            text: "2.素材",
+            indent: "indent"
+        },
+        {
+            text: "3.テキスト",
+            indent: "indent"
+        },
+        {
+            text: "4.カメラロール",
+            indent: "indent"
+        },
+        {
+            text: "基本の操作",
+        },
+        {
+            text: "1.写真の置き換え",
+            indent: "indent"
+        },
+        {
+            text: "2.前面・背面へ移動",
+            indent: "indent"
+        },
+        {
+            text: "3.音楽について",
+            indent: "indent"
+        },
+        {
+            text: "・音楽の確認方法",
+            indent: "indent"
+        },
+        {
+            text: "・音楽の削除の仕方",
+            indent: "indent"
+        },
+        {
+            text: "・音楽の置き換え",
+            indent: "indent"
+        },
+        {
+            text: "・音楽のエフェクト（フェードイン、フェードアウト）",
+            indent: "indent"
+        },
+        {
+            text: "4.ページの複製",
+            indent: "indent"
+        },
+        {
+            text: "5.アニメーション",
+            indent: "indent"
+        },
+        {
+            text: "6.透明度",
+            indent: "indent"
+        },
+        {
+            text: "7.ロック",
+            indent: "indent"
+        },
     ];
 
     return (
         <section className="page-format page-gutters">
             <Title text="【iPhone】基本操作" />
-            <SubTitle text="【iPhone】基本操作" />
             <HashLinkList items={items} />
             <SubTitle idName="画面の見方" text="画面の見方" />
                 <p>
@@ -182,7 +230,7 @@ export default function SmartPhone() {
             Step.2 「すべてのページを表示」を選択します
             </p>
             <p>
-            Step.3 「（1）を複製」をクリックします
+            Step.3 「&#40;1&#41;を複製」をクリックします
             </p>
             <ContentImage src={fourteenthPhoto} alt="Page instructions part 2" />
             <p>
