@@ -6,17 +6,49 @@ import ReferenceAccordion from '../components/layout/Accordion';
 
 export default function Comment() {
     const items = [
-        "コメント集",
-        "オープニングムービー",
-        "プロフィールムービー",
-        "幼少期",
-        "小学校時代",
-        "中学時代",
-        "高校時代",
-        "大学時代",
-        "社会人時代",
-        "お付き合い開始",
-        "ファミリー婚",
+        {
+            text: "コメント集",
+        },
+        {
+            text: "オープニングムービー",
+            indent: "indent"
+        },
+        {
+            text: "プロフィールムービー",
+            indent: "indent"
+        },
+        {
+            text: "幼少期",
+            indent: "indent"
+        },
+        {
+            text: "小学校時代",
+            indent: "indent"
+        },
+        {
+            text: "中学時代",
+            indent: "indent"
+        },
+        {
+            text: "高校時代",
+            indent: "indent"
+        },
+        {
+            text: "大学時代",
+            indent: "indent"
+        },
+        {
+            text: "社会人時代",
+            indent: "indent"
+        },
+        {
+            text: "お付き合い開始",
+            indent: "indent",
+        },
+        {
+            text: "ファミリー婚",
+            indent: "indent",
+        },
     ];
 
     return (
@@ -30,10 +62,10 @@ export default function Comment() {
                 </p>
             <SubTitle idName="オープニングムービー" text="オープニングムービー" />
                 <p>
-                緊張しています温かく見守ってください (笑)
+                緊張しています温かく見守ってください&#40;笑&#41;
                 </p>
                 <p>
-                写真は今より5キロ太ってます(笑)
+                写真は今より5キロ太ってます&#40;笑&#41;
                 </p>
                 <p>
                 短い時間ですが楽しんでいって下さい♪︎
