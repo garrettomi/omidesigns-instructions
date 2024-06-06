@@ -9,21 +9,46 @@ import ScrollToTop from "../components/common/ScrollToTop";
 
 export default function Ongaku() {
     const items = [
-        "音楽について",
-        "テンプレートで使用している曲",
-        "著作権について",
-        "Canva上の曲について",
-        "著作権フリー音楽",
-        "おすすめサイト",
-        "音楽の追加方法",
-        "iPhone への保存方法",
-        "注意"
+        {
+            text: "音楽について",
+        },
+        {
+            text: "テンプレートで使用している曲",
+            indent: "indent",
+        },
+        {
+            text: "著作権について",
+            indent: "indent",
+        },
+        {
+            text: "Canva上の曲について",
+            indent: "indent",
+        },
+        {
+            text: "著作権フリー音楽",
+            indent: "indent",
+        },
+        {
+            text: "おすすめサイト",
+            indent: "indent",
+        },
+        {
+            text:  "音楽の追加方法",
+            indent: "indent",
+        },
+        {
+            text:  "iPhone への保存方法",
+            indent: "indent",
+        },
+        {
+            text:  "注意",
+            indent: "indent",
+        },
     ];
 
     return (
         <section className="page-format page-gutters">
             <Title text="音楽について" />
-            <SubTitle text="音楽について" />
             <HashLinkList items={items} />
                 <SubTitle idName="音楽について" text="音楽について" />
                 <SubTitle idName="テンプレートで使用している曲" text="テンプレートで使用している曲" />
@@ -59,42 +84,42 @@ export default function Ongaku() {
                     <p>
                     利用規約をご覧の上ご使用ください。
                     </p>
-                    <p>
+                    <p className="mb-5">
                     また、音楽のダウンロード方法はサポート外です。ご了承願います。
                     </p>
-                    <Link to="https://dova-s.jp/">
+                    <Link to="https://dova-s.jp/" className="font-bold hover:underline">
                     DOVA-SYNDROME
                     </Link>
-                    <p>
+                    <p className="mb-5">
                     12,000曲以上が無料でダウンロード可能、絞り込み機能があります。
                     </p>
-                    <Link to="https://www.youtube.com/playlist?list=PLhVixZ3ct0DyEKuMA91j3mn0kwc2FjJLm">
+                    <Link to="https://www.youtube.com/playlist?list=PLhVixZ3ct0DyEKuMA91j3mn0kwc2FjJLm" className="font-bold hover:underline">
                     Youtube 著作権フリー音楽まとめ
                     </Link>
                     <p>
                     海外の方が作っているアコースティック系の曲をまとめました
                     </p>
-                    <p>
+                    <p className="mb-5">
                     「🔽 Free MP3 Download:」からダウンロードできます
                     </p>
-                    <Link to="https://music.nonono.jp/">
+                    <Link to="https://music.nonono.jp/" className="font-bold hover:underline">
                     のんのオルゴール
                     </Link>
-                    <p>
+                    <p className="mb-5">
                     オルゴール専門のBGMサイト、癒し系の曲
                     </p>
-                    <Link to="https://shw.in/">
+                    <Link to="https://shw.in/" className="font-bold hover:underline">
                     SHW
                     </Link>
-                    <p>
+                    <p className="mb-5">
                     オーケストラや和の音楽があります
                     </p>
                 <SubTitle idName="音楽の追加方法" text="音楽の追加方法" />
                     <p>
-                    ご自身で操作するデバイスに曲（PM3ファイル）を保存いただき、アップロードから追加ください。
+                    ご自身で操作するデバイスに曲&#40;PM3ファイル&#41;を保存いただき、アップロードから追加ください。
                     </p>
                     <p>
-                    （Iphoneの場合はアップロード→ファイルを選択）
+                    &#40;Iphoneの場合はアップロード→ファイルを選択&#41;
                     </p>
                 <SubTitle idName="iPhone への保存方法" text="iPhone への保存方法" />
                     <p>
