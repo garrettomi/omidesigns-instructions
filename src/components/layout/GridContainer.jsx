@@ -1,6 +1,6 @@
 export default function GridContainer ({ cards }) {
     return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-4 mb-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         {cards.map((card, index) => (
           <a

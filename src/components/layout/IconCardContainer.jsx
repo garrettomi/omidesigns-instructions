@@ -12,7 +12,7 @@ export default function IconCardContainer ({ iconCards }) {
             <div>
               {card.icon}
             </div>
-            <p className="text-center text-lg font-semibold">{card.title}</p>
+              <p className="text-center text-lg font-semibold">{card.title}</p>
           </a>
         ))}
       </div>
