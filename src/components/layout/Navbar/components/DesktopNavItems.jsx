@@ -13,7 +13,7 @@ export default function DesktopNavItems() {
                 <DesktopNavItem text="Shop" url="/shop" />
                 <DesktopNavItem text="Contact" url="/contact" />                             
                 <li>
-                    <a href="https://instagram.com/omidesigns" target="_blank" rel="noopener noreferrer" className="text-omidesigns-brown hover:text-gray-600 transition">
+                    <a href="https://instagram.com/omidesigns_weddingtemplate" target="_blank" rel="noopener noreferrer" className="text-omidesigns-brown hover:text-gray-600 transition">
                         <InstagramIcon color="#8B806C" />
                     </a>
                 </li>
