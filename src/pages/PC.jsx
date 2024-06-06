@@ -24,34 +24,83 @@ import ReferenceAccordion from "../components/layout/Accordion";
 
 import Title from "../components/common/Title";
 import SubTitle from "../components/common/SubTitle";
+import SmallTitle from "../components/common/SmallTitle";
 import ContentImage from '../components/common/ContentImage';
 import ScrollToTop from "../components/common/ScrollToTop";
 
 export default function PC() {
     const items = [
-        "画面の見方",
-        "1.共有マーク",
-        "2.素材",
-        "3.テキスト",
-        "4.アップロード",
-        "基本の操作",
-        "1.写真の置き換え",
-        "2.前面・背面へ移動",
-        "3.音楽について",
-        "・音楽の確認方法",
-        "・音楽の削除の仕方",
-        "・音楽の置き換え",
-        "・音楽のエフェクト（フェードイン、フェードアウト）",
-        "4.ページの複製・追加",
-        "5.アニメーション",
-        "6.透明度",
-        "7.ロック",
+        {
+            text: "画面の見方",
+        },
+        {
+            text: "1.共有マーク",
+            indent: "indent",
+        },
+        {
+            text: "2.素材",
+            indent: "indent",
+        },
+        {
+            text:  "3.テキスト",
+            indent: "indent",
+        },
+        {
+            text:   "4.アップロード",
+            indent: "indent",
+        },
+        {
+            text: "基本の操作",
+        },
+        {
+            text: "1.写真の置き換え",
+            indent: "indent"
+        },
+        {
+            text:  "2.前面・背面へ移動",
+            indent: "indent"
+        },
+        {
+            text:  "3.音楽について",
+            indent: "indent"
+        },
+        {
+            text:  "・音楽の確認方法",
+            indent: "indent"
+        },
+        {
+            text:  "・音楽の削除の仕方",
+            indent: "indent"
+        },
+        {
+            text:  "・音楽の置き換え",
+            indent: "indent"
+        },
+        {
+            text:  "・音楽のエフェクト（フェードイン、フェードアウト）",
+            indent: "indent"
+        },
+        {
+            text:  "4.ページの複製・追加",
+            indent: "indent"
+        },
+        {
+            text:  "5.アニメーション",
+            indent: "indent"
+        },
+        {
+            text:  "6.透明度",
+            indent: "indent"
+        },
+        {
+            text:  "7.ロック",
+            indent: "indent"
+        },
     ];
 
     return (
         <section className="page-format page-gutters">
             <Title text="【PC】基本操作" />
-            <SubTitle text="【PC】基本操作" />
             <HashLinkList items={items} />
             <SubTitle idName="画面の見方" text="画面の見方" />
                 <p>
