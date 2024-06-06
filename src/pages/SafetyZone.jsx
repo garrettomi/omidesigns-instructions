@@ -10,17 +10,16 @@ export default function SafetyZone() {
     return (
         <section className="page-gutters page-format">
             <Title text="セーフティーゾーンについて" />
-            <SubTitle text="セーフティーゾーンについて" />
                 <p>
-                セーフティーゾーンとは？
+                    セーフティーゾーンとは？
                 </p>
-                <p>
-                →確実に画面に映し出される範囲のことです
+                <p className="mb-5">
+                    →確実に画面に映し出される範囲のことです
                 </p>
                 <p>
                 ※テンプレートのデザインは基本的に80%に収まるように作成しています。
                 </p>
-                <p>
+                <p className="mb-5">
                 会場によって指定はそれぞれですので、確認した上で作成することをおすすめいたします✏︎
                 </p>
                 <p>
