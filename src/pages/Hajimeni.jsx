@@ -15,16 +15,24 @@ import ScrollToTop from "../components/common/ScrollToTop";
 
 export default function Hajimeni() {
     const items = [
-        "はじめに",
-        "Canvaについて",
-        "テンプレートへのアクセス",
+        {
+            text: "はじめに",
+        },
+        {
+            text: "Canvaについて",
+            indent: "indent"
+        },
+        {
+            text: "テンプレートへのアクセス",
+            indent: "indent"
+        },
     ];
 
     return (
         <section className="page-format page-gutters">
             <Title text="はじめに | Canva登録・テンプレートの受け取り方" />
-            <SubTitle idName="はじめに" text="はじめに" />
             <HashLinkList items={items} />
+            <SubTitle idName="はじめに" text="はじめに" />
             <SmallTitle idName="Canvaについて" text="Canvaについて" />
             <p>
                 テンプレートのご使用にはCanva Proアカウントが必要です

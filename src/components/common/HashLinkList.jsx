@@ -4,7 +4,7 @@ const HashLinkList = ({ items }) => {
     return (
         <ul>
             {items.map((item, index) => (
-                <HashLinkListItem key={index} text={item} />
+                <HashLinkListItem key={index} text={item.text} indent={item.indent} />
             ))}
         </ul>
     );
