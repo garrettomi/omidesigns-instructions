@@ -25,10 +25,15 @@ export default {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0px" },
         },
+        fadeIn: {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 },
+        },
       },
       animation: {
         slideDown: "slideDown 300ms cubic-bezier(0.87, 0, 0.13, 1)",
         slideUp: "slideUp 300ms cubic-bezier(0.87, 0, 0.13, 1)",
+        fadeIn: "fadeIn 1s ease-out forwards",
       },
     },
   },
