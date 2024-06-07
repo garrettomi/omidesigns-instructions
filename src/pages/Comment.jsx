@@ -54,7 +54,6 @@ export default function Comment() {
     return (
         <section className="page-gutters page-format">
             <Title text="コメント集" />
-            <SubTitle text="コメント集" />
             <HashLinkList items={items} />
             <SubTitle idName="コメント集" text="コメント集" />
                 <p>
