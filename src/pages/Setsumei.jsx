@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 import Title from "../components/common/Title";
+import SmallTitle from "../components/common/SmallTitle";
 import YoutubeEmbed from "../components/common/YoutubeEmbed";
 import ReferenceAccordion from '../components/layout/Accordion';
 import ScrollToTop from "../components/common/ScrollToTop";
@@ -16,22 +17,12 @@ export default function Setsumei() {
                     以下からご確認ください
                 </p>
                 <div>
+                    <SmallTitle text="PC用" />
                     <YoutubeEmbed embedId={"4wDsZEWrc5w"} />
-                    <Link 
-                        to="https://www.youtube.com/watch?si=J8s1OzPUGi18u49U&v=4wDsZEWrc5w&feature=youtu.be"
-                        className="font-bold hover:underline"
-                    >
-                        PC用
-                    </Link>
                 </div>
                 <div>
+                    <SmallTitle text="iPhone用" />
                     <YoutubeEmbed embedId={"8xtys9QUsP0"} />
-                    <Link 
-                        to="https://www.youtube.com/watch?si=TW29WzjclEcw1GLX&v=8xtys9QUsP0&feature=youtu.be"
-                        className="font-bold hover:underline"
-                    >
-                        iPhone用
-                </Link>
                 </div>
                 <div className="py-20">
                     <ReferenceAccordion />

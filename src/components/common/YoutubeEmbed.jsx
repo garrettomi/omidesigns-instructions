@@ -1,6 +1,6 @@
 const YoutubeEmbed = ({ embedId }) => {
     return (
-        <div className="overflow-hidden pb-96 relative h-0">
+        <div className="relative overflow-hidden" style={{ paddingTop: '56.25%' }}>
             <iframe
                 width="853"
                 height="480"
