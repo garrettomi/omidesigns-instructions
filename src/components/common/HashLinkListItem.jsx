@@ -4,7 +4,7 @@ const HashLinkListItem = ({ text, indent }) => {
     return (
         <>
             {indent ?
-                <li className={`${indent} font-bold hover:underline`}>
+                <li className={`${indent} hover:underline`}>
                     <HashLink to={`#${text}`}>
                         {text}
                     </HashLink>
