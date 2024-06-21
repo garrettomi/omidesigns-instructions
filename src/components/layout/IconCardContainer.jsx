@@ -12,7 +12,13 @@ export default function IconCardContainer ({ iconCards }) {
             <div>
               {card.icon}
             </div>
+            <div className="mt-5">
               <p className="text-center text-lg font-semibold">{card.title}</p>
+            </div>
+            {card.titleLineTwo &&
+            <div>
+              <p className="text-center text-lg font-semibold">{card.titleLineTwo}</p>
+            </div> }
           </a>
         ))}
       </div>
