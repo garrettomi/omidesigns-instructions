@@ -207,7 +207,7 @@ export default function PC() {
             Step.1 ページの右上にある…ボタンをクリックします
             </p>
             <p>
-            Step.2 「（1）を複製」をクリックします
+            Step.2 「&#40;1&#41;を複製」をクリックします
             </p>
             <ContentImage src={thirteenthPhoto} alt="Page instructions part 1" />
             <p>

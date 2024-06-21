@@ -38,7 +38,7 @@ export default function Hajimeni() {
                 テンプレートのご使用にはCanva Proアカウントが必要です
             </p>
             <p>
-                （Canva proは無料トライアルで30日間は無料でご利用いただけます）
+            &#40;Canva proは無料トライアルで30日間は無料でご利用いただけます&#41;
             </p>
             <List />
             <SmallTitle idName="テンプレートへのアクセス" text="テンプレートへのアクセス" />
@@ -46,7 +46,10 @@ export default function Hajimeni() {
                 Step 1 : Proアカウントの作成
             </p>
             <p>
-                <Link to="https://www.canva.com/ja_jp/affiliates/PECHIMARU/?clickId=QorzJc0DHxyKRC3w6FVG9zkkUkHTDB3UZ3dsUQ0&utm_medium=affiliate&utm_source=pechimaru_2611570&irgwc=1">
+                <Link 
+                    to="https://www.canva.com/ja_jp/affiliates/PECHIMARU/?clickId=QorzJc0DHxyKRC3w6FVG9zkkUkHTDB3UZ3dsUQ0&utm_medium=affiliate&utm_source=pechimaru_2611570&irgwc=1"
+                    className="text-[#777] hover:text-black"
+                >
                     こちら
                 </Link>
                 をクリックしたら、アカウント作成のリンクに飛びます

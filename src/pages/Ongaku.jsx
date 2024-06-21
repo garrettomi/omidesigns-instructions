@@ -87,14 +87,20 @@ export default function Ongaku() {
                     <p className="mb-5">
                     また、音楽のダウンロード方法はサポート外です。ご了承願います。
                     </p>
-                    <Link to="https://dova-s.jp/" className="font-bold hover:underline">
-                    DOVA-SYNDROME
+                    <Link 
+                        to="https://dova-s.jp/" 
+                        className="font-bold underline hover:text-[#777]"
+                    >
+                        DOVA-SYNDROME
                     </Link>
                     <p className="mb-5">
                     12,000曲以上が無料でダウンロード可能、絞り込み機能があります。
                     </p>
-                    <Link to="https://www.youtube.com/playlist?list=PLhVixZ3ct0DyEKuMA91j3mn0kwc2FjJLm" className="font-bold hover:underline">
-                    Youtube 著作権フリー音楽まとめ
+                    <Link 
+                        to="https://www.youtube.com/playlist?list=PLhVixZ3ct0DyEKuMA91j3mn0kwc2FjJLm" 
+                        className="font-bold underline hover:text-[#777]"
+                    >
+                        Youtube 著作権フリー音楽まとめ
                     </Link>
                     <p>
                     海外の方が作っているアコースティック系の曲をまとめました
@@ -102,13 +108,19 @@ export default function Ongaku() {
                     <p className="mb-5">
                     「🔽 Free MP3 Download:」からダウンロードできます
                     </p>
-                    <Link to="https://music.nonono.jp/" className="font-bold hover:underline">
-                    のんのオルゴール
+                    <Link 
+                        to="https://music.nonono.jp/" 
+                        className="font-bold underline hover:text-[#777]"
+                    >
+                        のんのオルゴール
                     </Link>
                     <p className="mb-5">
                     オルゴール専門のBGMサイト、癒し系の曲
                     </p>
-                    <Link to="https://shw.in/" className="font-bold hover:underline">
+                    <Link 
+                        to="https://shw.in/" 
+                        className="font-bold underline hover:text-[#777]"
+                    >
                     SHW
                     </Link>
                     <p className="mb-5">

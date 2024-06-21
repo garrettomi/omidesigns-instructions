@@ -104,12 +104,12 @@ export default function Download() {
                 【郵送】
                 </p>
                 <div>
-                    <Link to="https://dvdpaint.com/" className="font-bold hover:underline">
+                    <Link to="https://dvdpaint.com/" className="font-bold underline hover:text-[#777]">
                         DVD Paint.com → 1,500円〜
                     </Link>
                 </div>
                 <div>
-                    <Link to="https://merite.jp/" className="font-bold hover:underline">
+                    <Link to="https://merite.jp/" className="font-bold underline hover:text-[#777]">
                         merite アプリ → 480円~
                     </Link>
                 </div>
@@ -125,7 +125,7 @@ export default function Download() {
                 <p className="font-bold">
                     【店舗】
                 </p>
-                <Link to="https://www.kitamura-print.com/data_conversion/movie_dvd/index.html" className="font-bold hover:underline">
+                <Link to="https://www.kitamura-print.com/data_conversion/movie_dvd/index.html" className="font-bold underline hover:text-[#777]">
                     カメラのキタムラ → 1,100円〜
                 </Link>
                 <p>
