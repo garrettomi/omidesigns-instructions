@@ -30,7 +30,7 @@ const AccordionDemo = () => {
 
     <AccordionItem value="item-1">
       <AccordionTrigger>Basic Info</AccordionTrigger>
-      <AccordionContent onClick={(e) => handleLinkClick(e, '/startd')}>
+      <AccordionContent onClick={(e) => handleLinkClick(e, '/start')}>
           はじめに | テンプレートの受け取り方
       </AccordionContent>
       <AccordionContent onClick={(e) => handleLinkClick(e, '/PC')}>
