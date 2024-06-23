@@ -21,11 +21,17 @@ import Navbar from './components/layout/Navbar/Navbar.jsx';
 import Footer from './components/layout/Footer.jsx';
 
 import './index.css'
+import About from './pages/About.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
+    errorElement: <Error />,
+  },
+  {
+    path: "/about",
+    element: <About />,
     errorElement: <Error />,
   },
   {
