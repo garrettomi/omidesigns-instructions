@@ -13,23 +13,23 @@ function Home() {
     { 
       title: "はじめに",
       titleLineTwo: "テンプレートの受け取り方",
-      url: "/はじめに", 
+      url: "/start", 
       icon: <SlideShowIcon />
     },
     { title: "【PC】基本操作", url: "/PC", icon: <DesktopIcon /> },
     { title: "【iPhone】基本操作", url: "/iPhone", icon: <MobileIcon /> },
     { 
       title: "音楽・著作権",
-      url: "/音楽", 
+      url: "/music", 
       icon: <MusicIcon /> 
     }
   ]
 
   const cards = [
-    { title: "ダウンロード・DVD化", url: "/ダウンロード" },
-    { title: "セーフティーゾーン", url: "/セーフティーゾーン" },
-    { title: "説明動画", url: "/説明動画" },
-    { title: "みんなのコメント集", url: "/みんなのコメント集" }
+    { title: "ダウンロード・DVD化", url: "/download" },
+    { title: "セーフティーゾーン", url: "/safety-zone" },
+    { title: "説明動画", url: "/video-explanation" },
+    { title: "みんなのコメント集", url: "/comments" }
   ];
 
   return (

@@ -35,7 +35,7 @@ const router = createBrowserRouter([
     errorElement: <Error />,
   },
   {
-    path:"/はじめに",
+    path:"/start",
     element: <Hajimeni />,
     errorElement: <Error />,
   },
@@ -50,27 +50,27 @@ const router = createBrowserRouter([
     errorElement: <Error />,
   },
   {
-    path:"/セーフティーゾーン",
+    path:"/safety-zone",
     element: <SafetyZone />,
     errorElement: <Error />,
   },
   {
-    path:"/説明動画",
+    path:"/video-explanation",
     element: <Setsumei />,
     errorElement: <Error />,
   },
   {
-    path:"/音楽",
+    path:"/music",
     element: <Ongaku />,
     errorElement: <Error />,
   },
   {
-    path:"/ダウンロード",
+    path:"/download",
     element: <Download />,
     errorElement: <Error />,
   },
   {
-    path:"/みんなのコメント集",
+    path:"/comments",
     element: <Comment />,
     errorElement: <Error />,
   },

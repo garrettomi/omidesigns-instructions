@@ -2,7 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 import * as Accordion from '@radix-ui/react-accordion';
 import { ChevronDownIcon } from '@radix-ui/react-icons';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const AccordionDemo = () => {
 
@@ -30,7 +30,7 @@ const AccordionDemo = () => {
 
     <AccordionItem value="item-1">
       <AccordionTrigger>Basic Info</AccordionTrigger>
-      <AccordionContent onClick={(e) => handleLinkClick(e, '/はじめに')}>
+      <AccordionContent onClick={(e) => handleLinkClick(e, '/startd')}>
           はじめに | テンプレートの受け取り方
       </AccordionContent>
       <AccordionContent onClick={(e) => handleLinkClick(e, '/PC')}>
@@ -39,23 +39,23 @@ const AccordionDemo = () => {
       <AccordionContent onClick={(e) => handleLinkClick(e, '/iPhone')}>
           【iPhone】基本操作
       </AccordionContent>
-      <AccordionContent onClick={(e) => handleLinkClick(e, "/音楽")}>
+      <AccordionContent onClick={(e) => handleLinkClick(e, "/music")}>
           音楽・著作権
       </AccordionContent>
     </AccordionItem>
 
     <AccordionItem value="item-2">
       <AccordionTrigger>Useful Info</AccordionTrigger>
-      <AccordionContent onClick={(e) => handleLinkClick(e, "/ダウンロード")}>
+      <AccordionContent onClick={(e) => handleLinkClick(e, "/download")}>
           ダウンロード・DVD化
       </AccordionContent>
-      <AccordionContent onClick={(e) => handleLinkClick(e, "/セーフティーゾーン")}>
+      <AccordionContent onClick={(e) => handleLinkClick(e, "/safety-zone")}>
           セーフティーゾーン
       </AccordionContent>
-      <AccordionContent onClick={(e) => handleLinkClick(e, "/説明動画")}>
+      <AccordionContent onClick={(e) => handleLinkClick(e, "/video-explanation")}>
           説明動画
       </AccordionContent>
-      <AccordionContent onClick={(e) => handleLinkClick(e, "/みんなのコメント集")}>
+      <AccordionContent onClick={(e) => handleLinkClick(e, "/comments")}>
           みんなのコメント集"
       </AccordionContent>
     </AccordionItem>
