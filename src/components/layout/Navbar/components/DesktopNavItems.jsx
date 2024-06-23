@@ -10,7 +10,16 @@ export default function DesktopNavItems() {
             <ul className="lg:flex flex-col lg:flex-row items-center gap-8">
                 <DesktopNavItem text="Home" url="/" />
                 <DesktopNavItem text="About" url="/about" />
-                <DesktopNavItem text="Shop" url="https://shop.omidesigns.net/" />                   
+                <li>
+                    <a 
+                        href="https://shop.omidesigns.net/"
+                        target="_blank"
+                        rel="noopener noreferrer" 
+                        className="font-montserrat text-omidesigns-brown hover:text-gray-600 transition"
+                    >
+                        Shop
+                    </a>
+                </li>                   
                 <li>
                     <a href="https://instagram.com/omidesigns_weddingtemplate" 
                         target="_blank" 
