@@ -56,7 +56,7 @@ const AccordionDemo = () => {
           説明動画
       </AccordionContent>
       <AccordionContent onClick={(e) => handleLinkClick(e, "/comments")}>
-          みんなのコメント集"
+          みんなのコメント集
       </AccordionContent>
     </AccordionItem>
   </Accordion.Root>
