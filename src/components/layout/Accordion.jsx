@@ -2,8 +2,22 @@ import React from 'react';
 import classNames from 'classnames';
 import * as Accordion from '@radix-ui/react-accordion';
 import { ChevronDownIcon } from '@radix-ui/react-icons';
+import { Link, useNavigate } from 'react-router-dom';
 
-const AccordionDemo = () => (
+const AccordionDemo = () => {
+
+  const navigate = useNavigate();
+
+  const handleLinkClick = (event, path) => {
+    event.preventDefault();
+    navigate(path);
+    window.scrollTo({
+      top: 0,
+      behavior: 'instant'
+    });
+  };
+
+  return (
   <Accordion.Root
     className="bg-mauve6 w-full rounded-md shadow-[0_2px_10px] shadow-black/5"
     type="multiple"
@@ -16,21 +30,38 @@ const AccordionDemo = () => (
 
     <AccordionItem value="item-1">
       <AccordionTrigger>Basic Info</AccordionTrigger>
-      <AccordionContent>Canva How To</AccordionContent>
-      <AccordionContent>Canva How To</AccordionContent>
-      <AccordionContent>Canva How To</AccordionContent>
-      <AccordionContent>Canva How To</AccordionContent>
+      <AccordionContent onClick={(e) => handleLinkClick(e, '/はじめに')}>
+          はじめに | テンプレートの受け取り方
+      </AccordionContent>
+      <AccordionContent onClick={(e) => handleLinkClick(e, '/PC')}>
+          【PC】基本操作
+      </AccordionContent>
+      <AccordionContent onClick={(e) => handleLinkClick(e, '/iPhone')}>
+          【iPhone】基本操作
+      </AccordionContent>
+      <AccordionContent onClick={(e) => handleLinkClick(e, "/音楽")}>
+          音楽・著作権
+      </AccordionContent>
     </AccordionItem>
 
     <AccordionItem value="item-2">
       <AccordionTrigger>Useful Info</AccordionTrigger>
-      <AccordionContent>Item #1</AccordionContent>
-      <AccordionContent>Item #1</AccordionContent>
-      <AccordionContent>Item #1</AccordionContent>
-      <AccordionContent>Item #1</AccordionContent>
+      <AccordionContent onClick={(e) => handleLinkClick(e, "/ダウンロード")}>
+          ダウンロード・DVD化
+      </AccordionContent>
+      <AccordionContent onClick={(e) => handleLinkClick(e, "/セーフティーゾーン")}>
+          セーフティーゾーン
+      </AccordionContent>
+      <AccordionContent onClick={(e) => handleLinkClick(e, "/説明動画")}>
+          説明動画
+      </AccordionContent>
+      <AccordionContent onClick={(e) => handleLinkClick(e, "/みんなのコメント集")}>
+          みんなのコメント集"
+      </AccordionContent>
     </AccordionItem>
   </Accordion.Root>
-);
+  )
+};
 
 const AccordionItem = React.forwardRef(({ children, className, ...props }, forwardedRef) => (
   <Accordion.Item
@@ -64,16 +95,17 @@ const AccordionTrigger = React.forwardRef(({ children, className, ...props }, fo
   </Accordion.Header>
 ));
 
-const AccordionContent = React.forwardRef(({ children, className, ...props }, forwardedRef) => (
+const AccordionContent = React.forwardRef(({ children, className, onClick, ...props }, forwardedRef) => (
   <Accordion.Content
     className={classNames(
-      'text-mauve11 bg-mauve2 data-[state=open]:animate-slideDown data-[state=closed]:animate-slideUp overflow-hidden text-[15px]',
+      'text-mauve11 bg-mauve2 data-[state=open]:animate-slideDown data-[state=closed]:animate-slideUp overflow-hidden text-[15px] cursor-pointer hover:bg-mauve4',
       className
     )}
     {...props}
     ref={forwardedRef}
+    onClick={onClick}
   >
-    <div className="py-[15px] px-5">{children}</div>
+    <div className="py-[15px] px-5 w-full h-full hover:text-violet9">{children}</div>
   </Accordion.Content>
 ));
 
