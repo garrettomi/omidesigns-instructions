@@ -18,48 +18,51 @@ const AccordionDemo = () => {
   };
 
   return (
-  <Accordion.Root
-    className="bg-mauve6 w-full rounded-md shadow-[0_2px_10px] shadow-black/5"
-    type="multiple"
-    defaultValue={["item-1", "item-2"]}
-    collapsible="true"
-  >
-    <div className="text-violet11 bg-white px-5 py-3 rounded-t-md">
-      Go to
-    </div>
+    <Accordion.Root
+      className="bg-mauve6 w-full rounded-md shadow-[0_2px_10px] shadow-black/5 cursor-pointer"
+      type="multiple"
+      defaultValue={["item-1", "item-2"]}
+      collapsible="true"
+      onClick={(e) => handleLinkClick(e, '/')}
+    >
+      <div 
+        className="text-violet11 bg-white px-5 py-3 rounded-t-md"
+      >
+        ホーム
+      </div>
 
-    <AccordionItem value="item-1">
-      <AccordionTrigger>Basic Info</AccordionTrigger>
-      <AccordionContent onClick={(e) => handleLinkClick(e, '/start')}>
-          はじめに | テンプレートの受け取り方
-      </AccordionContent>
-      <AccordionContent onClick={(e) => handleLinkClick(e, '/PC')}>
-          【PC】基本操作
-      </AccordionContent>
-      <AccordionContent onClick={(e) => handleLinkClick(e, '/iPhone')}>
-          【iPhone】基本操作
-      </AccordionContent>
-      <AccordionContent onClick={(e) => handleLinkClick(e, "/music")}>
-          音楽・著作権
-      </AccordionContent>
-    </AccordionItem>
+      <AccordionItem value="item-1">
+        <AccordionTrigger>基本情報</AccordionTrigger>
+        <AccordionContent onClick={(e) => handleLinkClick(e, '/start')}>
+            はじめに | テンプレートの受け取り方
+        </AccordionContent>
+        <AccordionContent onClick={(e) => handleLinkClick(e, '/PC')}>
+            【PC】基本操作
+        </AccordionContent>
+        <AccordionContent onClick={(e) => handleLinkClick(e, '/iPhone')}>
+            【iPhone】基本操作
+        </AccordionContent>
+        <AccordionContent onClick={(e) => handleLinkClick(e, "/music")}>
+            音楽・著作権 について
+        </AccordionContent>
+      </AccordionItem>
 
-    <AccordionItem value="item-2">
-      <AccordionTrigger>Useful Info</AccordionTrigger>
-      <AccordionContent onClick={(e) => handleLinkClick(e, "/download")}>
-          ダウンロード・DVD化
-      </AccordionContent>
-      <AccordionContent onClick={(e) => handleLinkClick(e, "/safety-zone")}>
-          セーフティーゾーン
-      </AccordionContent>
-      <AccordionContent onClick={(e) => handleLinkClick(e, "/video-explanation")}>
-          説明動画
-      </AccordionContent>
-      <AccordionContent onClick={(e) => handleLinkClick(e, "/comments")}>
-          みんなのコメント集
-      </AccordionContent>
-    </AccordionItem>
-  </Accordion.Root>
+      <AccordionItem value="item-2">
+        <AccordionTrigger>お役立ち情報</AccordionTrigger>
+        <AccordionContent onClick={(e) => handleLinkClick(e, "/download")}>
+            ダウンロード・DVD化
+        </AccordionContent>
+        <AccordionContent onClick={(e) => handleLinkClick(e, "/safety-zone")}>
+            セーフティーゾーン
+        </AccordionContent>
+        <AccordionContent onClick={(e) => handleLinkClick(e, "/video-explanation")}>
+            説明動画
+        </AccordionContent>
+        <AccordionContent onClick={(e) => handleLinkClick(e, "/comments")}>
+            みんなのコメント集
+        </AccordionContent>
+      </AccordionItem>
+    </Accordion.Root>
   )
 };
 
