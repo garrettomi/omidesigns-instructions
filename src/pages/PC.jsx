@@ -27,6 +27,7 @@ import SubTitle from "../components/common/SubTitle";
 import SmallTitle from "../components/common/SmallTitle";
 import ContentImage from '../components/common/ContentImage';
 import ScrollToTop from "../components/common/ScrollToTop";
+import { HashLink } from "react-router-hash-link";
 
 export default function PC() {
     const items = [

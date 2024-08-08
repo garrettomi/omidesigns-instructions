@@ -28,6 +28,7 @@ import Title from "../components/common/Title";
 import SubTitle from "../components/common/SubTitle";
 import ContentImage from '../components/common/ContentImage';
 import ScrollToTop from "../components/common/ScrollToTop";
+import { HashLink } from "react-router-hash-link";
 
 export default function SmartPhone() {
     const items = [
@@ -133,7 +134,14 @@ export default function SmartPhone() {
             <ContentImage src={thirdPhoto} alt="Second photo of instructions for text" />
             <SubTitle idName="4.カメラロール" text="4.カメラロール" />
             <p>
-            ご自身のカメラロールよりお写真・動画を追加することが出来ます。テンプレート内の写真を自身のお写真に入れ替えたい時は、後述の「写真の置き換え」をご覧下さい
+            ご自身のカメラロールよりお写真・動画を追加することが出来ます。テンプレート内の写真を自身のお写真に入れ替えたい時は、後述の
+            <HashLink 
+                to={'#1.写真の置き換え'}
+                className="hover:text-gray-500"
+            >
+                「写真の置き換え
+            </HashLink>」
+            をご覧下さい
             </p>
             <ContentImage src={fourthPhoto} alt="Instructions for upload" />
             <SubTitle idName="基本の操作" text="基本の操作" />
