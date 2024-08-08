@@ -7,7 +7,7 @@ export default function IconCardContainer ({ iconCards }) {
             key={index}
             href={card.url}
             rel="noopener noreferrer"
-            className="flex flex-col items-center justify-center h-72 bg-omidesigns-white rounded-lg shadow-md"
+            className="flex flex-col items-center justify-center h-40 md:h-72 bg-omidesigns-white rounded-lg shadow-md"
           >
             <div>
               {card.icon}

@@ -43,7 +43,7 @@ function Home() {
               <h3 className="text-center text-xl mt-10 mb-10">ムービーテンプレートの使い方</h3>
                 <IconCardContainer iconCards={iconCards} />
               <h3 className="text-center text-xl font-bold mt-10 mb-10">お役立ち情報</h3>
-              <GridContainer cards={cards} />
+                <GridContainer cards={cards} />
             </section>
     </>
   );
