@@ -48,7 +48,7 @@ export default function Hajimeni() {
             <p>
                 <Link 
                     to="https://www.canva.com/ja_jp/affiliates/PECHIMARU/?clickId=QorzJc0DHxyKRC3w6FVG9zkkUkHTDB3UZ3dsUQ0&utm_medium=affiliate&utm_source=pechimaru_2611570&irgwc=1"
-                    className="text-[#777] hover:text-black"
+                    className="text-[#5b5bc5] hover:text-black"
                 >
                     こちら
                 </Link>

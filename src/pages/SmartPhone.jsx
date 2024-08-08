@@ -181,7 +181,7 @@ export default function SmartPhone() {
             著作権フリーの曲リストについては
             <Link
                 to="/music"
-                className="underline"
+                className="text-[#5b5bc5] underline"
             >
                 こちら
             </Link>

@@ -162,7 +162,7 @@ export default function PC() {
             著作権フリーの曲リストについては
                 <Link
                     to="/music"
-                    className="underline"
+                    className="underline text-[#5b5bc5]"
                 >
                     こちら
                 </Link>
