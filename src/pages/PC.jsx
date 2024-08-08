@@ -27,7 +27,7 @@ import SubTitle from "../components/common/SubTitle";
 import SmallTitle from "../components/common/SmallTitle";
 import ContentImage from '../components/common/ContentImage';
 import ScrollToTop from "../components/common/ScrollToTop";
-import { HashLink } from "react-router-hash-link";
+import { Link } from "react-router-dom";
 
 export default function PC() {
     const items = [
@@ -159,7 +159,14 @@ export default function PC() {
             <ContentImage src={seventhPhoto} alt="Instructions for video part 2" />
             <SubTitle idName="3.音楽について" text="3.音楽について" />
             <p>
-            著作権フリーの曲リストについてはこちらをご覧ください
+            著作権フリーの曲リストについては
+                <Link
+                    to="/music"
+                    className="underline"
+                >
+                    こちら
+                </Link>
+            をご覧ください
             </p>
             <SubTitle idName="・音楽の確認方法" text="・音楽の確認方法" />
             <p>
