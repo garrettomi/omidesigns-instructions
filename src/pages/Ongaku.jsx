@@ -138,7 +138,14 @@ export default function Ongaku() {
                     楽曲のダウンロードの方法はサポート対象外です。
                     </p>
                     <p>
-                    iPhoneのYouTubeダウンロード保存アプリを紹介しているサイトをご確認ください。
+                    iPhoneのYouTubeダウンロード保存アプリを紹介している
+                    <Link 
+                        to="https://applimura.com/youtube-download-app-iphone/"
+                        className="underline"
+                    >
+                        サイト
+                    </Link>
+                    をご確認ください。
                     </p>
                 <SubTitle idName="注意" text="注意" />
                     <p>
