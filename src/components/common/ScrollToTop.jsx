@@ -28,7 +28,7 @@ export default function ScrollToTop() {
             {isVisible && (
                 <button
                     onClick={scrollToTop}
-                    className="bg-black text-white rounded-full w-12 h-12 flex justify-center items-center shadow-lg hover:bg-gray-800"
+                    className="bg-omidesigns-brown text-white rounded-full w-12 h-12 flex justify-center items-center shadow-lg hover:bg-[#B3A98A]"
                 >
                     ↑
                 </button>
