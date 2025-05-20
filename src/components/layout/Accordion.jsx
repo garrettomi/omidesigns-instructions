@@ -10,6 +10,7 @@ const AccordionDemo = () => {
 
   const handleLinkClick = (event, path) => {
     event.preventDefault();
+    event.stopPropagation();
     navigate(path);
     window.scrollTo({
       top: 0,
@@ -49,6 +50,9 @@ const AccordionDemo = () => {
 
       <AccordionItem value="item-2">
         <AccordionTrigger>お役立ち情報</AccordionTrigger>
+        <AccordionContent onClick={(e) => handleLinkClick(e, "/end-credits")}>
+          エンドロール作成の注意点
+        </AccordionContent>
         <AccordionContent onClick={(e) => handleLinkClick(e, "/download")}>
             ダウンロード・DVD化
         </AccordionContent>

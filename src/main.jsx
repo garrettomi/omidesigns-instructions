@@ -22,6 +22,7 @@ import Footer from './components/layout/Footer.jsx';
 
 import './index.css'
 import About from './pages/About.jsx';
+import EndCredits from './pages/EndCredits.jsx';
 
 const router = createBrowserRouter([
   {
@@ -74,6 +75,11 @@ const router = createBrowserRouter([
     element: <Comment />,
     errorElement: <Error />,
   },
+  {
+    path:"/end-credits",
+    element: <EndCredits />,
+    errorElement: <Error />
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

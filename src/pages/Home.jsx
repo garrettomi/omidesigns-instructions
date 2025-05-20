@@ -26,6 +26,7 @@ function Home() {
   ]
 
   const cards = [
+    { title: "エンドロール作成の注意点", url: "/end-credits"},
     { title: "ダウンロード・DVD化", url: "/download" },
     { title: "セーフティーゾーン", url: "/safety-zone" },
     { title: "説明動画", url: "/video-explanation" },
