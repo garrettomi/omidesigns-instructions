@@ -1,4 +1,4 @@
-const { mauve, violet } = require("@radix-ui/colors");
+import { mauve, violet } from "@radix-ui/colors";
 
 /** @type {import('tailwindcss').Config} */
 export default {
