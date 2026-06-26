@@ -1,22 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Murecho:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Murecho:wght@100..900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 section.homepage-gutters {
-    @apply px-4 sm:px-8 md:px-16 lg:px-24;
+  @apply px-4 sm:px-8 md:px-16 lg:px-24;
 }
 
 section.page-gutters {
-    @apply px-6 mt-24 sm:px-12 md:px-20 lg:px-32 xl:px-80;
+  @apply px-6 mt-24 sm:px-12 md:px-20 lg:px-32 xl:px-80;
 }
 
 section.page-format p {
-    @apply py-1 text-base sm:text-sm md:text-base;
+  @apply py-1 text-base sm:text-sm md:text-base;
 }
